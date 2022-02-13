@@ -1,0 +1,57 @@
+/* Demo styles - can be discarded. */
+.w-app {
+  /*padding: 4px;background-color: #fffeed;*/
+}
+header, footer, aside, main {
+  margin: 4px;
+  padding: 12px;
+  text-transform: uppercase;
+  color: #666;
+  /*border: 1px solid rgba(0, 0, 0, 0.07);*/
+}
+header, footer {background-color: #e9f8fe;min-height: 60px;}
+aside {background-color: #fef2ff;}
+main {background-color: #efffed;}
+
+
+#mainNav {
+  transition: .7s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /*background: linear-gradient(270deg, rgba(195,4,201,1) 72%, rgb(0 0 0) 91%);*/
+  z-index: 999;
+  padding: 15px 50px;
+}
+
+#mainNav img {
+  width: auto;
+  height: 80px;
+  /*max-width: 100%;*/
+  /*max-height: 100%;*/
+}
+
+#menu_item {
+  cursor: pointer;
+  align-self: center;
+}
+
+.nav-up {
+  transform: translate(0, 0) !important;
+}
+
+.nav-down {
+  transform: translate(0, -100%) !important;
+}
+
+section {
+  /*border: solid;*/
+  min-height: 100vh;
+}
+
+#header {
+  background-image: url('./images/bg.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
