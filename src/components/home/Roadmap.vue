@@ -1,5 +1,5 @@
 <template>
-  <section id="roadmanp">
+  <section id="roadmap">
     Roadmap
   </section>
 </template>

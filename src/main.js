@@ -4,6 +4,7 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import WaveUI from 'wave-ui'
+import VueSplide from '@splidejs/vue-splide'
 import 'wave-ui/dist/wave-ui.css'
 
 import '@/assets/base.css'
@@ -17,5 +18,5 @@ new WaveUI(app, {
 
 app.use(createPinia())
 app.use(router)
-
+app.use( VueSplide )
 app.mount('#app')

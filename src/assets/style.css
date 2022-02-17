@@ -13,6 +13,9 @@ header, footer {background-color: #e9f8fe;min-height: 60px;}
 aside {background-color: #fef2ff;}
 main {background-color: #efffed;}
 
+body, html {
+  scroll-behavior: smooth;
+}
 
 #mainNav {
   transition: .7s;
@@ -48,6 +51,12 @@ main {background-color: #efffed;}
 section {
   /*border: solid;*/
   min-height: 100vh;
+  transition: 500ms ease-in-out;
+  scroll-behavior: smooth;
+}
+
+.in-transition {
+   transition: transform 900ms ease-in-out;
 }
 
 #header {
