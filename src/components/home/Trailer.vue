@@ -1,18 +1,53 @@
 <template>
   <section id="trailer" style="background-color: blue;">
-    <template>
-      <Splide :options="{ rewind: true }">
-        <SplideSlide>
-          <img src="@/assets/images/meta_Arena.png" alt="Sample 1">
-        </SplideSlide>
-        <SplideSlide>
-          <img src="@/assets/images/meta_Arena.png" alt="Sample 2">
-        </SplideSlide>
-      </Splide>
-    </template>
+
+    <Splide
+      :options="options"
+      has-slider-wrapper
+    >
+      <SplideSlide v-for="slide in slides" :key="slide.alt">
+        <img :src="slide.src" :alt="slide.alt">
+      </SplideSlide>
+
+      <template #after-slider>
+        <div class="splide__progress">
+          <div class="splide__progress__bar">
+          </div>
+        </div>
+
+        <!-- <div class="splide__autoplay">
+          <button class="splide__play">Play</button>
+          <button class="splide__pause">Pause</button>
+        </div> -->
+      </template>
+    </Splide>
 
   </section>
 </template>
-<script>
-  
+<script lang="ts">
+import { Options } from '@splidejs/splide';
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+import { defineComponent } from 'vue';
+import { generateSlides } from '@/utils';
+export default defineComponent({
+  components: {
+    SplideSlide,
+    Splide,
+  },
+  setup() {
+    const slides = generateSlides();
+    const options: Options = {
+      rewind      : true,
+      gap         : '1rem',
+      autoplay    : true,
+      pauseOnHover: false,
+      arrows      : 'slider',
+      height      : '15rem',
+    };
+    return {
+      slides,
+      options,
+    }
+  },
+})
 </script>

@@ -7,6 +7,7 @@ import WaveUI from 'wave-ui'
 import VueSplide from '@splidejs/vue-splide'
 import 'wave-ui/dist/wave-ui.css'
 
+import '@splidejs/splide/dist/css/splide.min.css'
 import '@/assets/base.css'
 import '@/assets/fancy-button1.css'
 import '@/assets/style.css'
