@@ -53,6 +53,23 @@ section {
   min-height: 100vh;
   transition: 500ms ease-in-out;
   scroll-behavior: smooth;
+  position: relative;
+}
+
+.slider-buttons {
+  position: absolute;
+  bottom: 2%;
+  z-index: 1 !important;
+}
+
+.prev {
+  left: 2%;
+  padding:  15px;
+}
+
+.next {
+  right: 2%;
+  padding:  15px;
 }
 
 .in-transition {

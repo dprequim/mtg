@@ -1,53 +1,42 @@
 <template>
   <section id="trailer" style="background-color: blue;">
 
-    <Splide
-      :options="options"
-      has-slider-wrapper
-    >
-      <SplideSlide v-for="slide in slides" :key="slide.alt">
-        <img :src="slide.src" :alt="slide.alt">
-      </SplideSlide>
+    <Swiper ref="trailerSwiper" interval="5000">
+      <Slide>
+        1
+      </Slide>
+      <Slide>
+        2
+      </Slide>
+      <Slide>
+        3
+      </Slide>
+    </Swiper>
 
-      <template #after-slider>
-        <div class="splide__progress">
-          <div class="splide__progress__bar">
-          </div>
-        </div>
-
-        <!-- <div class="splide__autoplay">
-          <button class="splide__play">Play</button>
-          <button class="splide__pause">Pause</button>
-        </div> -->
-      </template>
-    </Splide>
-
+    <Button class="slider-buttons prev" @click="prev">
+      Prev
+    </Button>
+    <Button class="slider-buttons next" @click="next">
+      next
+    </Button>
   </section>
 </template>
-<script lang="ts">
-import { Options } from '@splidejs/splide';
-import { Splide, SplideSlide } from '@splidejs/vue-splide';
-import { defineComponent } from 'vue';
-import { generateSlides } from '@/utils';
-export default defineComponent({
+<script>
+import { Swiper, Slide } from 'vue-swiper-component'
+export default {
   components: {
-    SplideSlide,
-    Splide,
+      Swiper,
+      Slide
   },
-  setup() {
-    const slides = generateSlides();
-    const options: Options = {
-      rewind      : true,
-      gap         : '1rem',
-      autoplay    : true,
-      pauseOnHover: false,
-      arrows      : 'slider',
-      height      : '15rem',
-    };
-    return {
-      slides,
-      options,
+  methods: {
+    prev() {
+      this.$refs.trailerSwiper.prevSlide()
+      console.log(123)
+    },
+    next() {
+      this.$refs.trailerSwiper.nextSlide()
+      console.log(123)
     }
-  },
-})
+  }
+}
 </script>
