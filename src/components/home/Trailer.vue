@@ -1,8 +1,8 @@
 <template>
   <section id="trailer" style="background-image: url('https://s3.envato.com/files/235698188/preview%20image.jpg');">
     <Swiper ref="trailerSwiper" :interval="5000" :autoPlay="false">
-      <Slide style="border: solid 1px; height: 100vh;">
-        <w-flex align-center justify-center class="wrapper" style="border: solid; height: 100%;">
+      <Slide style="height: 100vh;">
+        <w-flex align-center justify-center class="wrapper" style="height: 100%;">
           <w-flex class="py10" style="background-image: linear-gradient(270deg, #23478199, transparent);">
             <w-flex align-center justify-center>
               <img class="md6 d-block" src="@/assets/images/meta_Arena.png"/>
