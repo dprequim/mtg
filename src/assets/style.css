@@ -59,6 +59,35 @@ section {
   background-position: center;
 }
 
+
+#gameplay {
+  background-image: url('./images/branding.png');
+}
+
+#trailer {
+  background-image: url('./images/token.png');
+}
+
+#victors-nft {
+  background-image: url('./images/defend.png');
+}
+
+#about {
+  background-image: url('./images/meta_Arena.png'); 
+}
+
+#meta-ginto {
+  background-image: url('./images/SparkmonBear.png'); 
+}
+
+#team {
+  background-image: url('./images/defense_edited.png'); 
+}
+
+#roadmap {
+  background-image: url('./images/branding.png'); 
+}
+
 .slider-buttons {
   position: absolute;
   bottom: 2%;
