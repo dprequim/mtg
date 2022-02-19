@@ -2,16 +2,16 @@
 .w-app {
   /*padding: 4px;background-color: #fffeed;*/
 }
-header, footer, aside, main {
+/*header, footer, aside, main {
   margin: 4px;
   padding: 12px;
   text-transform: uppercase;
   color: #666;
-  /*border: 1px solid rgba(0, 0, 0, 0.07);*/
+  border: 1px solid rgba(0, 0, 0, 0.07);
 }
 header, footer {background-color: #e9f8fe;min-height: 60px;}
 aside {background-color: #fef2ff;}
-main {background-color: #efffed;}
+main {background-color: #efffed;}*/
 
 body, html {
   scroll-behavior: smooth;
@@ -54,6 +54,9 @@ section {
   transition: 500ms ease-in-out;
   scroll-behavior: smooth;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .slider-buttons {
@@ -80,4 +83,8 @@ section {
   background-image: url('./images/bg.gif');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+h1 {
+  font-size: 35px;
 }

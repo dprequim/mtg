@@ -1,7 +1,7 @@
 <template>
   <section id="header" class="grow" style="">
     <w-flex>
-      <w-flex justify-center align-center column class="x12 md5 wrapper" style="height: 100vh;">
+      <w-flex justify-center align-center column class="x12 md12 wrapper" style="height: 100vh;">
         <div>
           <img width="" class="d-block mr-3" src="@/assets/images/meta_Arena.png" alt="branding">
           <p class="py8" style="width: 413px">
@@ -28,7 +28,7 @@
           </div>
         </div>
       </w-flex>
-      <div class="x12 md7" style="height: 100vh;"/>
+      <!-- <div class="x12 md7" style="height: 100vh;"/> -->
     </w-flex>
   </section>
 </template>
