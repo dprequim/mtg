@@ -61,31 +61,31 @@ section {
 
 
 #gameplay {
-  background-image: url('./images/branding.png');
+  background-image: url('./images/bg1.png');
 }
 
 #trailer {
-  background-image: url('./images/token.png');
+  background-image: url('./images/trailer.png');
 }
 
 #victors-nft {
-  background-image: url('./images/defend.png');
+  background-image: url('./images/bg4.png');
 }
 
 #about {
-  background-image: url('./images/meta_Arena.png'); 
+  background-image: url('./images/bg2.png'); 
 }
 
 #meta-ginto {
-  background-image: url('./images/SparkmonBear.png'); 
+  background-image: url('./images/bg3.1.png'); 
 }
 
 #team {
-  background-image: url('./images/defense_edited.png'); 
+  background-image: url('./images/roadmap.png'); 
 }
 
 #roadmap {
-  background-image: url('./images/branding.png'); 
+  background-image: url('./images/roadmap.png'); 
 }
 
 .slider-buttons {

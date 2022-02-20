@@ -5,18 +5,16 @@
         <w-flex align-center justify-center class="wrapper" style="height: 100%;">
           <w-flex class="py10" style="background-image: linear-gradient(270deg, #23478199, transparent);">
             <w-flex align-center justify-center>
-              <img class="md6 d-block" src="@/assets/images/meta_Arena.png"/>
+              <img class="md6 d-block" src="@/assets/images/SparkmonBear.png"/>
             </w-flex>
             <w-flex column align-center justify-center class="md6">
-              <div><h1>adsasdsa</h1></div>
-              <div>4 VS 4</div>
+              <div><h1>Classic and RANK PVP 2</h1></div>
+              <div>PvP</div>
               <div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, augue ut sodales sodales, 
-                  ex ligula iaculis lacus, vitae vulputate nisl elit sit amet leo. Maecenas erat eros, mattis vel 
-                  tortor a, maximus fringilla nunc. Mauris ligula leo, convallis cursus fringilla in, feugiat ut augue. 
-                  Nunc fermentum et ex sed auctor. Duis eget posuere enim, sed ornare urna. Nulla ornare nulla nulla, 
-                  ac sollicitudin metus porta sit amet. Cras in condimentum elit, eu dapibus elit.
+                  Using only the middle lane, a player will have to destroy as many towers as
+                  possible within a given time limit. This is for everyone who wants to challenge
+                  their character’s skill and their strategy to win.
                 </p>
               </div>
             </w-flex>
@@ -27,18 +25,14 @@
         <w-flex align-center justify-center class="wrapper" style="height: 100%;">
           <w-flex class="py10" style="background-image: linear-gradient(270deg, #23478199, transparent);">
             <w-flex align-center justify-center>
-              <img class="md6 d-block" src="@/assets/images/meta_Arena.png"/>
+              <img class="md6 d-block" src="@/assets/images/defend.png"/>
             </w-flex>
             <w-flex column align-center justify-center class="md6">
-              <div><h1>adsasdsa</h1></div>
-              <div>4 VS 4</div>
+              <div><h1>Defend to Earn</h1></div>
+              <div>PvE</div>
               <div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, augue ut sodales sodales, 
-                  ex ligula iaculis lacus, vitae vulputate nisl elit sit amet leo. Maecenas erat eros, mattis vel 
-                  tortor a, maximus fringilla nunc. Mauris ligula leo, convallis cursus fringilla in, feugiat ut augue. 
-                  Nunc fermentum et ex sed auctor. Duis eget posuere enim, sed ornare urna. Nulla ornare nulla nulla, 
-                  ac sollicitudin metus porta sit amet. Cras in condimentum elit, eu dapibus elit.
+                  Instead of boring Tower Defense game mode, which player will just build ang upgrade towers. In this mode player will control their victors to defend its base, reward will depend on how many waves will be cleared.
                 </p>
               </div>
             </w-flex>
@@ -49,18 +43,14 @@
         <w-flex align-center justify-center class="wrapper" style="height: 100%;">
           <w-flex class="py10" style="background-image: linear-gradient(270deg, #23478199, transparent);">
             <w-flex align-center justify-center>
-              <img class="md6 d-block" src="@/assets/images/meta_Arena.png"/>
+              <img class="md6 d-block" src="@/assets/images/Duo.png"/>
             </w-flex>
             <w-flex column align-center justify-center class="md6">
-              <div><h1>adsasdsa</h1></div>
-              <div>4 VS 4</div>
+              <div><h1>Survival</h1></div>
+              <div>Solo/Duo</div>
               <div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, augue ut sodales sodales, 
-                  ex ligula iaculis lacus, vitae vulputate nisl elit sit amet leo. Maecenas erat eros, mattis vel 
-                  tortor a, maximus fringilla nunc. Mauris ligula leo, convallis cursus fringilla in, feugiat ut augue. 
-                  Nunc fermentum et ex sed auctor. Duis eget posuere enim, sed ornare urna. Nulla ornare nulla nulla, 
-                  ac sollicitudin metus porta sit amet. Cras in condimentum elit, eu dapibus elit.
+                  If you're not good in team fighting and want to solo or just a duo, this mode is just for you. "Last man standing wins".
                 </p>
               </div>
             </w-flex>
