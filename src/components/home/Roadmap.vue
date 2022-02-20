@@ -1,6 +1,6 @@
 <template>
   <section id="roadmap">
-    <Swiper ref="_swiper" :interval="5000" :autoPlay="false">
+    <!-- <Swiper ref="_swiper" :interval="5000" :autoPlay="false">
       <Slide style="height: 100vh;">
         <w-flex align-center justify-center class="wrapper" style="height: 100%;">
           <w-flex class="py10" style="background-image: linear-gradient(270deg, #23478199, transparent);">
@@ -74,7 +74,7 @@
     </Button>
     <Button class="slider-buttons next" @click="next">
       next
-    </Button>
+    </Button> -->
   </section>
 </template>
 <script>

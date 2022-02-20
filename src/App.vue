@@ -10,7 +10,7 @@
       <!-- <main class="grow">Main content</main> -->
       <Header/>
       <Gameplay/>
-      <Trailer/>
+      <!-- <Trailer/> -->
       <VictorsNft/>
       <About/>
       <MetaGinto/>
@@ -49,7 +49,7 @@ export default {
     sections: [
       'header',
       'gameplay',
-      'trailer',
+      // 'trailer',
       'victors-nft',
       'about',
       'meta-ginto',
@@ -88,7 +88,7 @@ export default {
       this.onCooldown = true
       setTimeout(() => {
         this.onCooldown = false
-      }, 1000)
+      }, 500)
     },
   },
   created() {
