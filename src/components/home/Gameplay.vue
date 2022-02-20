@@ -43,7 +43,7 @@
         <w-flex align-center justify-center class="wrapper" style="height: 100%;">
           <w-flex class="py10" style="background-image: linear-gradient(270deg, #23478199, transparent);">
             <w-flex align-center justify-center>
-              <img class="md6 d-block" src="@/assets/images/Duo.png"/>
+              <img class="md6 d-block" src="@/assets/images/DUO.png"/>
             </w-flex>
             <w-flex column align-center justify-center class="md6">
               <div><h1>Survival</h1></div>
