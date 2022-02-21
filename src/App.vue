@@ -11,11 +11,11 @@
       <Header/>
       <Gameplay/>
       <!-- <Trailer/> -->
-      <VictorsNft/>
+      <!-- <VictorsNft/> -->
       <About/>
       <MetaGinto/>
-      <Team/>
-      <Roadmap/>
+      <!-- <Team/> -->
+      <!-- <Roadmap/> -->
     </w-flex>
     <footer>Footer</footer>
   </w-app>
@@ -50,11 +50,11 @@ export default {
       'header',
       'gameplay',
       // 'trailer',
-      'victors-nft',
+      // 'victors-nft',
       'about',
       'meta-ginto',
-      'team',
-      'roadmap',
+      // 'team',
+      // 'roadmap',
     ],
     sectionIndex: 0,
     onCooldown: false,
