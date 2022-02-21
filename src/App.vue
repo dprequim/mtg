@@ -10,12 +10,12 @@
       <!-- <main class="grow">Main content</main> -->
       <Header/>
       <Gameplay/>
-      <!-- <Trailer/> -->
-      <!-- <VictorsNft/> -->
+      <Trailer/>
+      <VictorsNft/>
       <About/>
       <MetaGinto/>
-      <!-- <Team/> -->
-      <!-- <Roadmap/> -->
+      <Team/>
+      <Roadmap/>
     </w-flex>
     <footer>Footer</footer>
   </w-app>
@@ -49,12 +49,12 @@ export default {
     sections: [
       'header',
       'gameplay',
-      // 'trailer',
-      // 'victors-nft',
+      'trailer',
+      'victors-nft',
       'about',
       'meta-ginto',
-      // 'team',
-      // 'roadmap',
+      'team',
+      'roadmap',
     ],
     sectionIndex: 0,
     onCooldown: false,

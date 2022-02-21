@@ -9,7 +9,7 @@
             </w-flex>
             <w-flex column align-center justify-center class="md6">
               <div><h1>adsasdsa</h1></div>
-              <div>4 VS 4</div>
+              <div class="ablivesFont">4 VS 4</div>
               <div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, augue ut sodales sodales, 
@@ -31,7 +31,7 @@
             </w-flex>
             <w-flex column align-center justify-center class="md6">
               <div><h1>adsasdsa</h1></div>
-              <div>4 VS 4</div>
+              <div class="ablivesFont">4 VS 4</div>
               <div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, augue ut sodales sodales, 
@@ -53,7 +53,7 @@
             </w-flex>
             <w-flex column align-center justify-center class="md6">
               <div><h1>adsasdsa</h1></div>
-              <div>4 VS 4</div>
+              <div class="ablivesFont">4 VS 4</div>
               <div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, augue ut sodales sodales, 

@@ -75,6 +75,9 @@
     <Button class="slider-buttons next" @click="next">
       next
     </Button> -->
+    <w-flex align-center justify-center class="wrapper" style="height: 100vh;">
+      <h1>Victors NFT</h1>
+    </w-flex>
   </section>
 </template>
 <script>

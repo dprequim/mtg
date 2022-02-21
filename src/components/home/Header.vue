@@ -9,13 +9,13 @@
             Choose your victor, rally your friends, fortify your team and earn together!
           </p>
           <w-flex justify-space-between>
-            <div class='box curmudgeon'>
+            <div class='box curmudgeon ablivesFont'>
               Audit
             </div>
-            <div class='box curmudgeon'>
+            <div class='box curmudgeon ablivesFont'>
               Litepaper
             </div>
-            <div class='box curmudgeon'>
+            <div class='box curmudgeon ablivesFont'>
               Pitch Deck
             </div>
           </w-flex>

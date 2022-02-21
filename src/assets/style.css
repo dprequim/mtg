@@ -26,6 +26,7 @@ body, html {
   /*background: linear-gradient(270deg, rgba(195,4,201,1) 72%, rgb(0 0 0) 91%);*/
   z-index: 999;
   padding: 15px 50px;
+  font-family: 'a_black_lives';
 }
 
 #mainNav img {
@@ -46,6 +47,10 @@ body, html {
 
 .nav-down {
   transform: translate(0, -100%) !important;
+}
+
+.ablivesFont {
+  font-family: 'a_black_lives';
 }
 
 section {
@@ -116,4 +121,5 @@ section {
 
 h1 {
   font-size: 35px;
+  font-family: 'a_black_lives';
 }

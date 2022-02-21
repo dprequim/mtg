@@ -9,7 +9,7 @@
             </w-flex>
             <w-flex column align-center justify-center class="md6">
               <div><h1>Classic and RANK PVP 2</h1></div>
-              <div>PvP</div>
+              <div class="ablivesFont">PvP</div>
               <div>
                 <p>
                   Using only the middle lane, a player will have to destroy as many towers as
@@ -29,7 +29,7 @@
             </w-flex>
             <w-flex column align-center justify-center class="md6">
               <div><h1>Defend to Earn</h1></div>
-              <div>PvE</div>
+              <div class="ablivesFont">PvE</div>
               <div>
                 <p>
                   Instead of boring Tower Defense game mode, which player will just build ang upgrade towers. In this mode player will control their victors to defend its base, reward will depend on how many waves will be cleared.
@@ -47,7 +47,7 @@
             </w-flex>
             <w-flex column align-center justify-center class="md6">
               <div><h1>Survival</h1></div>
-              <div>Solo/Duo</div>
+              <div class="ablivesFont">Solo/Duo</div>
               <div>
                 <p>
                   If you're not good in team fighting and want to solo or just a duo, this mode is just for you. "Last man standing wins".

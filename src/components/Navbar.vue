@@ -13,25 +13,25 @@
           <div id="menu_item" @click="$router.push({ name: 'home' })" column class="px5 navbar-nav mr-auto" v-if="['home'].includes($route.name)">
             <h3>Home</h3>
           </div>
-          <div id="menu_item" @click="scroll('tokenomics')" column class="px5 navbar-nav mr-auto" v-if="['home'].includes($route.name)">
+          <div id="menu_item" @click="scroll('gameplay')" column class="px5 navbar-nav mr-auto" v-if="['home'].includes($route.name)">
             <h3>Gameplay</h3>
           </div>
-          <div id="menu_item" @click="scroll('roadmap')" column class="px5 navbar-nav mr-auto" v-if="['home'].includes($route.name)">
+          <div id="menu_item" @click="scroll('trailer')" column class="px5 navbar-nav mr-auto" v-if="['home'].includes($route.name)">
             <h3>Trailer</h3>
           </div>
-          <div id="menu_item" @click="scroll('community')" column class="px5 navbar-nav mr-auto" v-if="['home'].includes($route.name)">
+          <div id="menu_item" @click="scroll('victors-nft')" column class="px5 navbar-nav mr-auto" v-if="['home'].includes($route.name)">
             <h3>Victors NFT</h3>
           </div>
-          <div id="menu_item" @click="$router.push({ name: 'home' })" column class="px5 navbar-nav mr-auto" v-if="!['home'].includes($route.name)">
+          <div id="menu_item" @click="scroll('about')" column class="px5 navbar-nav mr-auto" v-if="!['home'].includes($route.name)">
             <h3>MTG Token</h3>
           </div>
-          <div id="menu_item" @click="$router.push({ name: 'dashboard' })" column class="px5 navbar-nav mr-auto" v-if="!['dashboard'].includes($route.name)">
+          <div id="menu_item" @click="scroll('meta-ginto')" column class="px5 navbar-nav mr-auto" v-if="!['dashboard'].includes($route.name)">
             <h3>Meta Ginto</h3>
           </div>
-          <div id="menu_item" @click="$router.push({ name: 'presale' })" column class="px5 navbar-nav mr-auto" v-if="!['dashboard'].includes($route.name)">
+          <div id="menu_item" @click="scroll('team')" column class="px5 navbar-nav mr-auto" v-if="!['dashboard'].includes($route.name)">
             <h3>Team</h3>
           </div>
-          <div id="menu_item" @click="$router.push({ name: 'presale' })" column class="px5 navbar-nav mr-auto" v-if="!['dashboard'].includes($route.name)">
+          <div id="menu_item" @click="scroll('roadmap')" column class="px5 navbar-nav mr-auto" v-if="!['dashboard'].includes($route.name)">
             <h3>Roadmap</h3>
           </div>
           <div id="menu_item" column class="px5 navbar-nav mr-auto">
