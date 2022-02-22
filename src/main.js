@@ -10,6 +10,7 @@ import '@/assets/base.css'
 import '@/assets/fancy-button1.css'
 import '@/assets/style.css'
 
+import '@/assets/fonts/jost/stylesheet.css'
 import '@/assets/fonts/aBlackLives/stylesheet.css'
 const app = createApp(App)
 
